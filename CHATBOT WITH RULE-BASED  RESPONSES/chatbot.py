@@ -17,11 +17,11 @@ def chatbot():
             print("Bot: Sure! You can ask me about my name, how I am, or just say hi!")
 
         elif 'bye' in user_input or 'exit' in user_input:
-            print("Bot: Goodbye! Have a great day! 👋")
+            print("Bot: Goodbye! Have a nice day! 👋")
             break
 
         else:
-            print("Bot: I'm sorry, I didn't understand that.")
+            print("Bot: I'm sorry, I didn't understand that because limited conversations are inputed.")
 
 # Run the chatbot
 if __name__ == "__main__":
